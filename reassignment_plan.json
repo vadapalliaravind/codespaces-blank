@@ -1,0 +1,8 @@
+Exception in thread "main" joptsimple.UnrecognizedOptionException: topics-to-move-list is not a recognized option
+	at joptsimple.OptionException.unrecognizedOption(OptionException.java:108)
+	at joptsimple.OptionParser.handleLongOptionToken(OptionParser.java:510)
+	at joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:56)
+	at joptsimple.OptionParser.parse(OptionParser.java:396)
+	at org.apache.kafka.tools.reassign.ReassignPartitionsCommandOptions.<init>(ReassignPartitionsCommandOptions.java:111)
+	at org.apache.kafka.tools.reassign.ReassignPartitionsCommand.validateAndParseArgs(ReassignPartitionsCommand.java:1390)
+	at org.apache.kafka.tools.reassign.ReassignPartitionsCommand.main(ReassignPartitionsCommand.java:124)
